@@ -1,0 +1,61 @@
+main {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+
+    background-color: rgba(255, 255, 255, 0.5);
+    background-image: url("/assets/1feladat_bg.png");
+    background-blend-mode: lighten;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main div.container {
+    max-width: 100%;
+    
+    flex: 1 1 auto;
+}
+
+main > div.container > .row{
+    height: 100%;
+}
+
+.col{
+    flex: 1 1 auto;
+    height: 100%;
+}
+
+.logo{
+    margin:20px;
+}
+
+.title-box{
+    margin:50px;
+}
+
+.title {
+    color: #186553;
+    font-weight: 700;
+}
+
+.subtitle{
+    font-size: 20px;
+}
+
+.illustration{
+    text-align: center;
+}
+
+.right-panel{
+    background-color: rgba(255, 255, 255, 0.5);
+    padding:50px;
+}
+
+.welcome-title{
+    color: #682C5D;
+    font-weight: 600;
+}
+
+.comnica-name{
+    text-wrap: nowrap;
+}
