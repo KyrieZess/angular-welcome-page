@@ -5,6 +5,7 @@
 
 .angular/*
 package-lock.json
+dist/
 
 # User-specific files
 *.rsuser
