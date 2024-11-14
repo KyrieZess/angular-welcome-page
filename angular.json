@@ -40,6 +40,7 @@
           },
           "configurations": {
             "production": {
+              "baseHref":"/angular-welcome-page",
               "budgets": [
                 {
                   "type": "initial",
